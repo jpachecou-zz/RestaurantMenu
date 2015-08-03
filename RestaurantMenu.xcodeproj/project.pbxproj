@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E87DD3071B6E8B8A003273FB /* UICollectionViewCell+RMRegisterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E87DD3061B6E8B8A003273FB /* UICollectionViewCell+RMRegisterCell.m */; };
+		E87DD30A1B6E8D3D003273FB /* RMCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E87DD3091B6E8D3D003273FB /* RMCategoryCollectionViewCell.xib */; };
+		E87DD30D1B6E8D8D003273FB /* RMCategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E87DD30C1B6E8D8D003273FB /* RMCategoryCollectionViewCell.m */; };
+		E87DD3101B6E90C8003273FB /* RMItemsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E87DD30F1B6E90C8003273FB /* RMItemsCollectionViewController.m */; };
+		E87DD3121B6E9319003273FB /* RMCategoryCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E87DD3111B6E9319003273FB /* RMCategoryCollectionReusableView.xib */; };
+		E87DD3151B6E93B9003273FB /* RMCategoryCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E87DD3141B6E93B9003273FB /* RMCategoryCollectionReusableView.m */; };
+		E89286341B6EE00F009D7574 /* RMItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E89286331B6EE00F009D7574 /* RMItemCollectionViewCell.xib */; };
+		E89286371B6EE0CA009D7574 /* RMItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E89286361B6EE0CA009D7574 /* RMItemCollectionViewCell.m */; };
+		E892863A1B6EFEEC009D7574 /* RMItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E89286391B6EFEEC009D7574 /* RMItemDetailViewController.m */; };
+		E8B887451B6DA31D00E89B38 /* RMSubcategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B887401B6DA31D00E89B38 /* RMSubcategory.m */; };
+		E8B887461B6DA31D00E89B38 /* RMItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B887421B6DA31D00E89B38 /* RMItem.m */; };
+		E8B887471B6DA31D00E89B38 /* RMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B887441B6DA31D00E89B38 /* RMCategory.m */; };
+		E8B8874E1B6DAF5A00E89B38 /* RMCategoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B8874D1B6DAF5A00E89B38 /* RMCategoryViewModel.m */; };
 		E8E65C3D1B6B0CC800EC441F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E65C3C1B6B0CC800EC441F /* main.m */; };
 		E8E65C401B6B0CC800EC441F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E65C3F1B6B0CC800EC441F /* AppDelegate.m */; };
 		E8E65C431B6B0CC800EC441F /* RestaurantMenu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8E65C411B6B0CC800EC441F /* RestaurantMenu.xcdatamodeld */; };
-		E8E65C461B6B0CC800EC441F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E65C451B6B0CC800EC441F /* MasterViewController.m */; };
-		E8E65C491B6B0CC800EC441F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E65C481B6B0CC800EC441F /* DetailViewController.m */; };
-		E8E65C4C1B6B0CC800EC441F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E65C4A1B6B0CC800EC441F /* Main.storyboard */; };
 		E8E65C4E1B6B0CC800EC441F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E65C4D1B6B0CC800EC441F /* Images.xcassets */; };
 		E8E65C511B6B0CC800EC441F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8E65C4F1B6B0CC800EC441F /* LaunchScreen.xib */; };
 		E8E65C5D1B6B0CC800EC441F /* RestaurantMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E65C5C1B6B0CC800EC441F /* RestaurantMenuTests.m */; };
+		E8E65C731B6B0D4200EC441F /* RMUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E65C6D1B6B0D4200EC441F /* RMUtil.m */; };
+		E8E65C741B6B0D4200EC441F /* RMMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E65C701B6B0D4200EC441F /* RMMenuViewController.m */; };
+		E8E65C761B6B0E5A00EC441F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E65C751B6B0E5A00EC441F /* Main.storyboard */; };
+		E8E65C791B6B0E9A00EC441F /* RMCoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E65C781B6B0E9A00EC441F /* RMCoreDataHelper.m */; };
+		F51639348F59CFC9295C9B92 /* libPods-RestaurantMenu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB70E8908B041FAFDD27DC4 /* libPods-RestaurantMenu.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,22 +44,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FB70E8908B041FAFDD27DC4 /* libPods-RestaurantMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RestaurantMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4767747433B26E590C17A163 /* Pods-RestaurantMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestaurantMenu/Pods-RestaurantMenu.release.xcconfig"; sourceTree = "<group>"; };
+		E87DD3051B6E8B8A003273FB /* UICollectionViewCell+RMRegisterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+RMRegisterCell.h"; sourceTree = "<group>"; };
+		E87DD3061B6E8B8A003273FB /* UICollectionViewCell+RMRegisterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+RMRegisterCell.m"; sourceTree = "<group>"; };
+		E87DD3081B6E8CC5003273FB /* RMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBaseViewController.h; sourceTree = "<group>"; };
+		E87DD3091B6E8D3D003273FB /* RMCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RMCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		E87DD30B1B6E8D8D003273FB /* RMCategoryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCategoryCollectionViewCell.h; sourceTree = "<group>"; };
+		E87DD30C1B6E8D8D003273FB /* RMCategoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCategoryCollectionViewCell.m; sourceTree = "<group>"; };
+		E87DD30E1B6E90C8003273FB /* RMItemsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMItemsCollectionViewController.h; sourceTree = "<group>"; };
+		E87DD30F1B6E90C8003273FB /* RMItemsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMItemsCollectionViewController.m; sourceTree = "<group>"; };
+		E87DD3111B6E9319003273FB /* RMCategoryCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RMCategoryCollectionReusableView.xib; sourceTree = "<group>"; };
+		E87DD3131B6E93B9003273FB /* RMCategoryCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCategoryCollectionReusableView.h; sourceTree = "<group>"; };
+		E87DD3141B6E93B9003273FB /* RMCategoryCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCategoryCollectionReusableView.m; sourceTree = "<group>"; };
+		E89286331B6EE00F009D7574 /* RMItemCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RMItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		E89286351B6EE0CA009D7574 /* RMItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMItemCollectionViewCell.h; sourceTree = "<group>"; };
+		E89286361B6EE0CA009D7574 /* RMItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMItemCollectionViewCell.m; sourceTree = "<group>"; };
+		E89286381B6EFEEC009D7574 /* RMItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMItemDetailViewController.h; sourceTree = "<group>"; };
+		E89286391B6EFEEC009D7574 /* RMItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMItemDetailViewController.m; sourceTree = "<group>"; };
+		E8B8873F1B6DA31D00E89B38 /* RMSubcategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMSubcategory.h; sourceTree = "<group>"; };
+		E8B887401B6DA31D00E89B38 /* RMSubcategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMSubcategory.m; sourceTree = "<group>"; };
+		E8B887411B6DA31D00E89B38 /* RMItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMItem.h; sourceTree = "<group>"; };
+		E8B887421B6DA31D00E89B38 /* RMItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMItem.m; sourceTree = "<group>"; };
+		E8B887431B6DA31D00E89B38 /* RMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCategory.h; sourceTree = "<group>"; };
+		E8B887441B6DA31D00E89B38 /* RMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCategory.m; sourceTree = "<group>"; };
+		E8B8874C1B6DAF5A00E89B38 /* RMCategoryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCategoryViewModel.h; sourceTree = "<group>"; };
+		E8B8874D1B6DAF5A00E89B38 /* RMCategoryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCategoryViewModel.m; sourceTree = "<group>"; };
+		E8B887551B6DB2AA00E89B38 /* RMBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBaseViewModel.h; sourceTree = "<group>"; };
+		E8B887561B6E4D3600E89B38 /* RMModelBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMModelBase.h; sourceTree = "<group>"; };
 		E8E65C371B6B0CC800EC441F /* RestaurantMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E65C3B1B6B0CC800EC441F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8E65C3C1B6B0CC800EC441F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E8E65C3E1B6B0CC800EC441F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E8E65C3F1B6B0CC800EC441F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E8E65C421B6B0CC800EC441F /* RestaurantMenu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RestaurantMenu.xcdatamodel; sourceTree = "<group>"; };
-		E8E65C441B6B0CC800EC441F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		E8E65C451B6B0CC800EC441F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		E8E65C471B6B0CC800EC441F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		E8E65C481B6B0CC800EC441F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		E8E65C4B1B6B0CC800EC441F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8E65C4D1B6B0CC800EC441F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E8E65C501B6B0CC800EC441F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E8E65C561B6B0CC800EC441F /* RestaurantMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E65C5B1B6B0CC800EC441F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8E65C5C1B6B0CC800EC441F /* RestaurantMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestaurantMenuTests.m; sourceTree = "<group>"; };
+		E8E65C6C1B6B0D4200EC441F /* RMUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMUtil.h; sourceTree = "<group>"; };
+		E8E65C6D1B6B0D4200EC441F /* RMUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMUtil.m; sourceTree = "<group>"; };
+		E8E65C6F1B6B0D4200EC441F /* RMMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMMenuViewController.h; sourceTree = "<group>"; };
+		E8E65C701B6B0D4200EC441F /* RMMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMMenuViewController.m; sourceTree = "<group>"; };
+		E8E65C751B6B0E5A00EC441F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E8E65C771B6B0E9A00EC441F /* RMCoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCoreDataHelper.h; sourceTree = "<group>"; };
+		E8E65C781B6B0E9A00EC441F /* RMCoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCoreDataHelper.m; sourceTree = "<group>"; };
+		EEA97200A21C11AE5484490A /* Pods-RestaurantMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestaurantMenu/Pods-RestaurantMenu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F51639348F59CFC9295C9B92 /* libPods-RestaurantMenu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +112,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1910F023A74EB5461CFD81A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FB70E8908B041FAFDD27DC4 /* libPods-RestaurantMenu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E2D392DFB90F1B5A7DB93F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEA97200A21C11AE5484490A /* Pods-RestaurantMenu.debug.xcconfig */,
+				4767747433B26E590C17A163 /* Pods-RestaurantMenu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8B8874B1B6DADBA00E89B38 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				E8B887551B6DB2AA00E89B38 /* RMBaseViewModel.h */,
+				E8B8874C1B6DAF5A00E89B38 /* RMCategoryViewModel.h */,
+				E8B8874D1B6DAF5A00E89B38 /* RMCategoryViewModel.m */,
+			);
+			name = "View Models";
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		E8E65C2E1B6B0CC800EC441F = {
 			isa = PBXGroup;
 			children = (
 				E8E65C391B6B0CC800EC441F /* RestaurantMenu */,
 				E8E65C591B6B0CC800EC441F /* RestaurantMenuTests */,
 				E8E65C381B6B0CC800EC441F /* Products */,
+				9E2D392DFB90F1B5A7DB93F6 /* Pods */,
+				1910F023A74EB5461CFD81A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,13 +163,9 @@
 		E8E65C391B6B0CC800EC441F /* RestaurantMenu */ = {
 			isa = PBXGroup;
 			children = (
+				E8E65C661B6B0D4200EC441F /* Classes */,
 				E8E65C3E1B6B0CC800EC441F /* AppDelegate.h */,
 				E8E65C3F1B6B0CC800EC441F /* AppDelegate.m */,
-				E8E65C441B6B0CC800EC441F /* MasterViewController.h */,
-				E8E65C451B6B0CC800EC441F /* MasterViewController.m */,
-				E8E65C471B6B0CC800EC441F /* DetailViewController.h */,
-				E8E65C481B6B0CC800EC441F /* DetailViewController.m */,
-				E8E65C4A1B6B0CC800EC441F /* Main.storyboard */,
 				E8E65C4D1B6B0CC800EC441F /* Images.xcassets */,
 				E8E65C4F1B6B0CC800EC441F /* LaunchScreen.xib */,
 				E8E65C411B6B0CC800EC441F /* RestaurantMenu.xcdatamodeld */,
@@ -127,6 +200,94 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E8E65C661B6B0D4200EC441F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E8E65C671B6B0D4200EC441F /* Categories */,
+				E8E65C681B6B0D4200EC441F /* Model */,
+				E8E65C691B6B0D4200EC441F /* Storyboards */,
+				E8E65C6B1B6B0D4200EC441F /* Util */,
+				E8B8874B1B6DADBA00E89B38 /* View Models */,
+				E8E65C6E1B6B0D4200EC441F /* View Controllers */,
+				E8E65C711B6B0D4200EC441F /* Views */,
+			);
+			name = Classes;
+			path = classes;
+			sourceTree = "<group>";
+		};
+		E8E65C671B6B0D4200EC441F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E87DD3051B6E8B8A003273FB /* UICollectionViewCell+RMRegisterCell.h */,
+				E87DD3061B6E8B8A003273FB /* UICollectionViewCell+RMRegisterCell.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E8E65C681B6B0D4200EC441F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8B8873F1B6DA31D00E89B38 /* RMSubcategory.h */,
+				E8B887401B6DA31D00E89B38 /* RMSubcategory.m */,
+				E8B887411B6DA31D00E89B38 /* RMItem.h */,
+				E8B887421B6DA31D00E89B38 /* RMItem.m */,
+				E8B887431B6DA31D00E89B38 /* RMCategory.h */,
+				E8B887441B6DA31D00E89B38 /* RMCategory.m */,
+				E8B887561B6E4D3600E89B38 /* RMModelBase.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E8E65C691B6B0D4200EC441F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E8E65C751B6B0E5A00EC441F /* Main.storyboard */,
+			);
+			name = Storyboards;
+			path = Storyborads;
+			sourceTree = "<group>";
+		};
+		E8E65C6B1B6B0D4200EC441F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E8E65C6C1B6B0D4200EC441F /* RMUtil.h */,
+				E8E65C6D1B6B0D4200EC441F /* RMUtil.m */,
+				E8E65C771B6B0E9A00EC441F /* RMCoreDataHelper.h */,
+				E8E65C781B6B0E9A00EC441F /* RMCoreDataHelper.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		E8E65C6E1B6B0D4200EC441F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E87DD3081B6E8CC5003273FB /* RMBaseViewController.h */,
+				E8E65C6F1B6B0D4200EC441F /* RMMenuViewController.h */,
+				E8E65C701B6B0D4200EC441F /* RMMenuViewController.m */,
+				E87DD30E1B6E90C8003273FB /* RMItemsCollectionViewController.h */,
+				E87DD30F1B6E90C8003273FB /* RMItemsCollectionViewController.m */,
+				E89286381B6EFEEC009D7574 /* RMItemDetailViewController.h */,
+				E89286391B6EFEEC009D7574 /* RMItemDetailViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E8E65C711B6B0D4200EC441F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E87DD3091B6E8D3D003273FB /* RMCategoryCollectionViewCell.xib */,
+				E87DD30B1B6E8D8D003273FB /* RMCategoryCollectionViewCell.h */,
+				E87DD30C1B6E8D8D003273FB /* RMCategoryCollectionViewCell.m */,
+				E87DD3111B6E9319003273FB /* RMCategoryCollectionReusableView.xib */,
+				E87DD3131B6E93B9003273FB /* RMCategoryCollectionReusableView.h */,
+				E87DD3141B6E93B9003273FB /* RMCategoryCollectionReusableView.m */,
+				E89286331B6EE00F009D7574 /* RMItemCollectionViewCell.xib */,
+				E89286351B6EE0CA009D7574 /* RMItemCollectionViewCell.h */,
+				E89286361B6EE0CA009D7574 /* RMItemCollectionViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +295,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8E65C601B6B0CC800EC441F /* Build configuration list for PBXNativeTarget "RestaurantMenu" */;
 			buildPhases = (
+				5739212A28CF0075656A4F10 /* Check Pods Manifest.lock */,
 				E8E65C331B6B0CC800EC441F /* Sources */,
 				E8E65C341B6B0CC800EC441F /* Frameworks */,
 				E8E65C351B6B0CC800EC441F /* Resources */,
+				3B94ED336BCCDB02CD4FA4D5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,6 +334,7 @@
 		E8E65C2F1B6B0CC800EC441F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RM;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Grability;
 				TargetAttributes = {
@@ -207,8 +371,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8E65C4C1B6B0CC800EC441F /* Main.storyboard in Resources */,
+				E8E65C761B6B0E5A00EC441F /* Main.storyboard in Resources */,
+				E87DD3121B6E9319003273FB /* RMCategoryCollectionReusableView.xib in Resources */,
 				E8E65C511B6B0CC800EC441F /* LaunchScreen.xib in Resources */,
+				E87DD30A1B6E8D3D003273FB /* RMCategoryCollectionViewCell.xib in Resources */,
+				E89286341B6EE00F009D7574 /* RMItemCollectionViewCell.xib in Resources */,
 				E8E65C4E1B6B0CC800EC441F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,16 +389,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B94ED336BCCDB02CD4FA4D5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestaurantMenu/Pods-RestaurantMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5739212A28CF0075656A4F10 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E8E65C331B6B0CC800EC441F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8E65C491B6B0CC800EC441F /* DetailViewController.m in Sources */,
-				E8E65C461B6B0CC800EC441F /* MasterViewController.m in Sources */,
+				E8E65C731B6B0D4200EC441F /* RMUtil.m in Sources */,
+				E89286371B6EE0CA009D7574 /* RMItemCollectionViewCell.m in Sources */,
+				E8E65C741B6B0D4200EC441F /* RMMenuViewController.m in Sources */,
+				E87DD3101B6E90C8003273FB /* RMItemsCollectionViewController.m in Sources */,
 				E8E65C401B6B0CC800EC441F /* AppDelegate.m in Sources */,
 				E8E65C431B6B0CC800EC441F /* RestaurantMenu.xcdatamodeld in Sources */,
+				E87DD3071B6E8B8A003273FB /* UICollectionViewCell+RMRegisterCell.m in Sources */,
+				E892863A1B6EFEEC009D7574 /* RMItemDetailViewController.m in Sources */,
 				E8E65C3D1B6B0CC800EC441F /* main.m in Sources */,
+				E8E65C791B6B0E9A00EC441F /* RMCoreDataHelper.m in Sources */,
+				E8B887451B6DA31D00E89B38 /* RMSubcategory.m in Sources */,
+				E8B887471B6DA31D00E89B38 /* RMCategory.m in Sources */,
+				E87DD30D1B6E8D8D003273FB /* RMCategoryCollectionViewCell.m in Sources */,
+				E8B887461B6DA31D00E89B38 /* RMItem.m in Sources */,
+				E87DD3151B6E93B9003273FB /* RMCategoryCollectionReusableView.m in Sources */,
+				E8B8874E1B6DAF5A00E89B38 /* RMCategoryViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +465,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E8E65C4A1B6B0CC800EC441F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E8E65C4B1B6B0CC800EC441F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E8E65C4F1B6B0CC800EC441F /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -357,9 +560,12 @@
 		};
 		E8E65C611B6B0CC800EC441F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA97200A21C11AE5484490A /* Pods-RestaurantMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = RestaurantMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -367,9 +573,12 @@
 		};
 		E8E65C621B6B0CC800EC441F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4767747433B26E590C17A163 /* Pods-RestaurantMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = RestaurantMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -428,6 +637,7 @@
 				E8E65C621B6B0CC800EC441F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8E65C631B6B0CC800EC441F /* Build configuration list for PBXNativeTarget "RestaurantMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +646,7 @@
 				E8E65C651B6B0CC800EC441F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

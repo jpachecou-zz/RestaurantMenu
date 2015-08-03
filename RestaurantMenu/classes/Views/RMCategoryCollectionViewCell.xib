@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="kZg-3W-Kak" customClass="RMCategoryCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.30000000000000004" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="b7E-2t-25J">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TLw-J5-xKv">
+                        <rect key="frame" x="8" y="28" width="304" height="28"/>
+                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DDd-Ko-luS">
+                        <rect key="frame" x="8" y="8" width="304" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="jyU-fm-a5x"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="18"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="b7E-2t-25J" secondAttribute="bottom" id="0FG-bq-YC6"/>
+                <constraint firstItem="DDd-Ko-luS" firstAttribute="top" secondItem="kZg-3W-Kak" secondAttribute="top" constant="8" id="4CC-y5-Z04"/>
+                <constraint firstItem="TLw-J5-xKv" firstAttribute="top" secondItem="DDd-Ko-luS" secondAttribute="bottom" constant="4" id="8TM-y8-Ghv"/>
+                <constraint firstItem="b7E-2t-25J" firstAttribute="leading" secondItem="kZg-3W-Kak" secondAttribute="leading" id="AL6-Og-EzB"/>
+                <constraint firstItem="b7E-2t-25J" firstAttribute="top" secondItem="kZg-3W-Kak" secondAttribute="top" id="Ikk-a2-pAz"/>
+                <constraint firstAttribute="trailing" secondItem="TLw-J5-xKv" secondAttribute="trailing" constant="8" id="Mi6-9a-pZg"/>
+                <constraint firstAttribute="bottom" secondItem="TLw-J5-xKv" secondAttribute="bottom" constant="8" id="X0O-J0-Tg1"/>
+                <constraint firstItem="DDd-Ko-luS" firstAttribute="leading" secondItem="kZg-3W-Kak" secondAttribute="leading" constant="8" id="aEE-Y4-H2G"/>
+                <constraint firstAttribute="trailing" secondItem="b7E-2t-25J" secondAttribute="trailing" id="goO-tY-fCi"/>
+                <constraint firstAttribute="trailing" secondItem="DDd-Ko-luS" secondAttribute="trailing" constant="8" id="grA-nJ-2xd"/>
+                <constraint firstItem="TLw-J5-xKv" firstAttribute="leading" secondItem="kZg-3W-Kak" secondAttribute="leading" constant="8" id="ifh-xt-72g"/>
+            </constraints>
+            <size key="customSize" width="320" height="64"/>
+            <connections>
+                <outlet property="imageView" destination="b7E-2t-25J" id="x4x-am-2E8"/>
+                <outlet property="subcategoryDescriptionLabel" destination="TLw-J5-xKv" id="L77-og-bs2"/>
+                <outlet property="subcategoryNameLabel" destination="DDd-Ko-luS" id="WI4-lU-Ype"/>
+            </connections>
+            <point key="canvasLocation" x="831" y="197"/>
+        </collectionViewCell>
+    </objects>
+</document>
