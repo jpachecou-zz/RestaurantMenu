@@ -42,5 +42,6 @@ Consider:
 The application may be changing in the graphic design of the views.
 The future application will be able to add new modules.
 ```
-
+###Notes:
+Personal service created by me was used to provide data and not have to write it in code
 
